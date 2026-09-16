@@ -32,26 +32,30 @@ class: cover-dark
 
 # Trois choses à préparer
 
-<div class="grid grid-cols-[1fr_1fr_1.45fr] gap-5">
+<div class="grid grid-cols-2 gap-5 items-stretch">
+
+<div class="flex flex-col gap-5">
 
 <div class="card">
-  <div class="flex items-center gap-2 mb-2"><span class="badge">1</span><strong>Claude desktop</strong></div>
-  <p class="text-sm text-[var(--muted)]">Installez l'application, puis connectez-vous avec votre compte.</p>
+  <div class="flex items-center gap-2 mb-1"><span class="badge">1</span><strong>Claude desktop</strong></div>
+  <p class="text-sm text-[var(--muted)] !my-1">Installez l'application, puis connectez-vous avec votre compte.</p>
   <a class="chip-link" href="https://claude.com/download" target="_blank"><ph-download-simple-bold />claude.com/download</a>
 </div>
 
 <div class="card">
-  <div class="flex items-center gap-2 mb-2"><span class="badge">2</span><strong>Claude in Chrome</strong></div>
-  <p class="text-sm text-[var(--muted)]">L'extension qui laisse Claude lire et naviguer dans vos onglets.</p>
+  <div class="flex items-center gap-2 mb-1"><span class="badge">2</span><strong>Claude in Chrome</strong></div>
+  <p class="text-sm text-[var(--muted)] !my-1">L'extension qui laisse Claude lire et naviguer dans vos onglets.</p>
   <a class="chip-link" href="https://claude.com/chrome" target="_blank"><ph-puzzle-piece-bold />claude.com/chrome</a>
 </div>
 
-<div class="card">
+</div>
+
+<div class="card flex flex-col">
   <div class="flex items-center gap-2 mb-2"><span class="badge">3</span><strong>Fichiers de l'atelier</strong></div>
-  <div class="file"><ph-microsoft-excel-logo-duotone class="text-xl text-[var(--teal)]" /><div><code>ventes_web_brutes_juin_juil_aout_25_26.xlsx</code><small>Export Sage des ventes web</small></div></div>
+  <div class="file"><ph-microsoft-excel-logo-duotone class="text-xl text-[var(--teal)]" /><div><code>ventes_web_brutes_juin_juil_aout_25_26_clean.xlsx</code><small>Export Sage des ventes web</small></div></div>
   <div class="file"><ph-file-csv-duotone class="text-xl text-[var(--teal)]" /><div><code>prix_lancement_shopify.csv</code><small>Export Shopify des prix de lancement</small></div></div>
   <div class="file"><ph-sparkle-duotone class="text-xl text-[var(--accent)]" /><div><code>ventes-sport-heros.skill</code><small>Le skill de la fin</small></div></div>
-  <a class="chip-link" href="https://drive.google.com/drive/folders/1FjCK7nBCLfPyuM8hZVUQKPMW0Uvik2UN?usp=sharing" target="_blank"><ph-google-drive-logo-bold />Dossier Google Drive</a>
+  <div class="mt-auto"><a class="chip-link" href="https://drive.google.com/drive/folders/1FjCK7nBCLfPyuM8hZVUQKPMW0Uvik2UN?usp=sharing" target="_blank"><ph-google-drive-logo-bold />Dossier Google Drive</a></div>
 </div>
 
 </div>
