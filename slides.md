@@ -51,7 +51,7 @@ class: cover-dark
   <div class="file"><ph-microsoft-excel-logo-duotone class="text-xl text-[var(--teal)]" /><div><code>ventes_web_brutes_juin_juil_aout_25_26.xlsx</code><small>Export Sage des ventes web</small></div></div>
   <div class="file"><ph-file-csv-duotone class="text-xl text-[var(--teal)]" /><div><code>prix_lancement_shopify.csv</code><small>Export Shopify des prix de lancement</small></div></div>
   <div class="file"><ph-sparkle-duotone class="text-xl text-[var(--accent)]" /><div><code>ventes-sport-heros.skill</code><small>Le skill de la fin</small></div></div>
-  <a class="chip-link" href="LIEN_GOOGLE_DRIVE" target="_blank"><ph-google-drive-logo-bold />Dossier Google Drive</a>
+  <a class="chip-link" href="https://drive.google.com/drive/folders/1FjCK7nBCLfPyuM8hZVUQKPMW0Uvik2UN?usp=sharing" target="_blank"><ph-google-drive-logo-bold />Dossier Google Drive</a>
 </div>
 
 </div>
