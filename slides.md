@@ -52,7 +52,7 @@ class: cover-dark
 
 <div class="card flex flex-col">
   <div class="flex items-center gap-2 mb-2"><span class="badge">3</span><strong>Fichiers de l'atelier</strong></div>
-  <div class="file"><ph-microsoft-excel-logo-duotone class="text-xl text-[var(--teal)]" /><div><code>ventes_web_brutes_juin_juil_aout_25_26_clean.xlsx</code><small>Export Sage des ventes web</small></div></div>
+  <div class="file"><ph-microsoft-excel-logo-duotone class="text-xl text-[var(--teal)]" /><div><code>ventes_web_brutes_juin_juil_aout_25_26.xlsx</code><small>Export Sage des ventes web</small></div></div>
   <div class="file"><ph-file-csv-duotone class="text-xl text-[var(--teal)]" /><div><code>prix_lancement_shopify.csv</code><small>Export Shopify des prix de lancement</small></div></div>
   <div class="file"><ph-sparkle-duotone class="text-xl text-[var(--accent)]" /><div><code>ventes-sport-heros.skill</code><small>Le skill de la fin</small></div></div>
   <div class="mt-auto"><a class="chip-link" href="https://drive.google.com/drive/folders/1FjCK7nBCLfPyuM8hZVUQKPMW0Uvik2UN?usp=sharing" target="_blank"><ph-google-drive-logo-bold />Dossier Google Drive</a></div>
