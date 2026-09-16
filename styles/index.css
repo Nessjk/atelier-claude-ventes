@@ -1,0 +1,108 @@
+:root {
+  --ink: #1f1b16;
+  --paper: #faf6ef;
+  --card: #ffffff;
+  --line: #e8dfd2;
+  --muted: #6b6258;
+  --accent: #c8553d;
+  --accent-soft: #f6e3dc;
+  --teal: #2e6f6b;
+  --teal-soft: #dcebe9;
+  --gold: #b7862b;
+  --gold-soft: #f4ead3;
+}
+
+.slidev-layout {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: 'Inter', sans-serif;
+}
+
+.slidev-layout h1 {
+  font-family: 'Fraunces', serif;
+  font-weight: 600;
+  font-size: 2.6rem;
+  letter-spacing: -0.02em;
+  margin-bottom: 1.4rem;
+}
+
+.slidev-layout h1 + p { opacity: 1; }
+
+.slidev-layout a {
+  color: inherit;
+  border-bottom: none;
+  text-decoration: none;
+}
+
+.kicker {
+  display: inline-block;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: .4rem;
+}
+
+.card {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.1rem 1.25rem;
+  box-shadow: 0 1px 0 rgba(31, 27, 22, .04), 0 8px 24px -12px rgba(31, 27, 22, .15);
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.7rem;
+  height: 1.7rem;
+  border-radius: 999px;
+  font-size: .8rem;
+  font-weight: 700;
+  flex-shrink: 0;
+  background: var(--accent-soft);
+  color: var(--accent);
+}
+
+.chip-link {
+  display: inline-flex;
+  align-items: center;
+  gap: .45rem;
+  margin-top: .6rem;
+  padding: .45rem .85rem;
+  border-radius: 999px;
+  background: var(--ink);
+  color: var(--paper) !important;
+  font-weight: 600;
+  font-size: .95rem;
+}
+
+.file {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  padding: .5rem 0;
+  border-top: 1px dashed var(--line);
+}
+.file svg { flex-shrink: 0; }
+.file > div { min-width: 0; }
+.slidev-layout .file code {
+  display: block;
+  font-size: .6rem;
+  line-height: 1.4;
+  white-space: nowrap;
+  background: none;
+  padding: 0;
+  color: var(--ink);
+}
+.file small { display: block; color: var(--muted); font-size: .72rem; }
+
+.slidev-layout.cover-dark {
+  background:
+    radial-gradient(circle at 85% 20%, rgba(200, 85, 61, .45), transparent 45%),
+    radial-gradient(circle at 10% 90%, rgba(46, 111, 107, .45), transparent 45%),
+    var(--ink);
+  color: var(--paper);
+}
